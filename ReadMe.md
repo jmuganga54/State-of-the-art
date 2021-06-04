@@ -2,7 +2,7 @@
 
 > A simple website
 
-`simple-bootstrap-website` is a simple website for static content.
+`simple-website` is a simple website for static content.
 It was created as the basis for personal project, but everyone is welcome to use it.
 The implementation strives to be simple and free of unnecessary dependencies.
 
