@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Montserrat';
+    margin: 0 auto;
+    text-align: center;
+}
+
+P {
+    color: rgb(59, 57, 57);
+}
+
+button {
+    background-color: black;
+
+}
+
+button:hover {
+    background-color: gray;
+
+}
+
+header {
+    position: relative;
+    margin: 0 auto;
+    background-color: white;
+    height: 60px;
+    margin: 20px 10px 15px 10px;
+
+}
+
+ul {
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+ul li a {
+    color: grey;
+    text-decoration: none;
+}
+
+#link-more {
+    position: absolute;
+    right: 70px;
+    margin-right: 70px;
+
+}
+
+#link-more ul li {
+
+    font-size: 1rem;
+    padding: 10px 10px 0 0;
+}
+
+#web-title {
+    position: absolute;
+    left: 70px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 10px 0 10px 0px;
+}
+
+#top {
+    position: relative;
+    background-image: url(../images/header-image.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+#mainContent {
+    text-align: left;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+}
+
+#mainContent h1 {
+    letter-spacing: 0.5rem;
+}
+
+#mainContent button {
+    font-size: 0.7rem;
+    color: white;
+
+    padding: 10px 20px;
+    border: 0;
+}
+
+#middleContent {
+    width: 50%;
+    margin: 50px auto;
+}
+
+
+#bottomContent {
+    position: relative;
+    background-color: cadetblue;
+    height: 600px;
+}
+
+#imageOne {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../images/image-one.jpg);
+    background-size: cover;
+    float: left;
+    width: 60%;
+    height: 400px;
+}
+
+#imageTwo {
+
+    position: absolute;
+    left: 60%;
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    padding: 0 15px;
+}
+
+#imageThree {
+    position: absolute;
+    left: 80%;
+    display: inline-block;
+    background-image: url(../images/image-three.jpg);
+    background-size: cover;
+    width: 20%;
+    height: 200px;
+}
+
+#imageFour {
+    position: absolute;
+    top: 200px;
+    left: 60%;
+    display: inline-block;
+    background-image: url(../images/image-four.jpg);
+    background-size: cover;
+    width: 20%;
+    height: 200px;
+}
+
+#imageFive {
+    position: absolute;
+    top: 200px;
+    left: 80%;
+    display: inline-block;
+    background-color: white;
+    width: 20%;
+    height: 200px;
+    text-align: left;
+    padding: 0 15px;
+}
+
+#imageSix {
+    display: inline-block;
+    position: absolute;
+    top: 400px;
+    left: 0;
+    width: 30%;
+    height: 200px;
+    background-image: url(../images/image-six.jpg);
+    background-size: cover;
+}
+
+#imageSeven {
+    display: inline-block;
+    position: absolute;
+    top: 400px;
+    left: 30%;
+    width: 30%;
+    height: 200px;
+    background-color: white;
+    text-align: left;
+    padding: 0 15px;
+}
+
+#imageEight {
+    display: inline-block;
+    position: absolute;
+    top: 400px;
+    left: 60%;
+    width: 40%;
+    height: 200px;
+    background-image: url(../images/image-eight.jpg);
+    background-size: cover;
+}
+
+#imageTwo {
+    text-align: left;
+
+}
+
+
+
+.display p {
+    font-size: 0.8rem;
+    line-height: 2;
+}
+
+.display button {
+    font-size: 0.6rem;
+    color: white;
+    padding: 10px 20px;
+    border: 0;
+
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    background-color: black;
+    height: 500px;
+    padding: 5px 0;
+}
+
+.row1 h4 {
+
+
+    color: white;
+
+}
+
+.row1 {
+    position: absolute;
+    top: 10%;
+    left: 10px;
+    display: inline-block;
+    width: 25%;
+    margin: 0 auto;
+
+
+}
+
+.row1 p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 2;
+
+}
+
+#maisonBottom {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/maison-logo.jpeg);background-size: cover;
+
+}
+
+.row2 {
+    color: white;
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    line-height: 2;
+
+}
+
+.item1 {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+
+}
+
+.item2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+
+}
+
+.item3 {
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    padding-right: 20px;
+
+}
+
+.row2 ul li {
+
+    display: block;
+    font-size: 0.8rem;
+    padding-bottom: 10px
+}
+
+#inputSearch {
+    display: inline-block;
+    padding: 8px;
+    border: none;
+}
+
+#goButton {
+    color: white;
+    background-color: gray;
+    display: inline-block;
+    padding: 8px;
+    border: none;
+}
+
+#cList {
+    background-color: white;
+    width: fit-content;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#bottomBar {
+    background-color: white;
+    width: 100px;
+}
